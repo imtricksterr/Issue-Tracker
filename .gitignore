@@ -1,0 +1,26 @@
+.env
+venv
+.venv
+env/
+ENV/
+
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Python
+*.pyc
+*.pyo
+*.egg-info
+.pytest_cache/
+
+# Django
+db.sqlite3
+staticfiles/
+media/
